@@ -1,0 +1,106 @@
+#Body{
+	margin: 0px;
+	box-sizing: border-box;
+	border: 1px;
+	text-align: center;
+    font-weight: bold;
+    font-family: "Ubuntu", Sans-serif;
+    background-color: #9cfea8;
+    color: #252531;
+}
+h2{
+	margin: 10px 0px 10px 0px;
+}
+#header{
+	font-size: 120%;
+	font-weight: bold;
+}
+body > header > div > a{
+	color: #252531;
+}
+#Navigate{
+	font-size: 80%;
+}
+article {
+	text-align: center;
+}
+section.Asia {
+	background-color: #94618E;
+	color: #49274A;
+	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=60310), auto;
+	background-color: #bfb0ff;
+}
+.Asia .article:hover {
+	color: black;
+	background-color: #ffbae2;
+}
+.Asia:active{
+	cursor: url(http://www.rw-designer.com/cursor-view/33993.png), auto;
+
+}
+.China div.article{
+	float: left;
+	width: 50%;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid;
+	border-bottom: 0px solid;
+}
+.China div.image{
+	float: right;
+	width: 50%;
+	height: 400px;
+	margin: 0px;
+	border-top: 1px solid;
+	border-bottom: 0px solid;
+}
+.China:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.Viatnam div.image{
+	float: left;
+	width: 50%;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid;
+	border-bottom: 0px solid;
+}
+.Viatnam div.article{
+	float: right;
+	width: 50%;
+	height: 400px;
+	margin: 0px;
+	border-top: 1px solid;
+	border-bottom: 0px solid;
+}
+.Viatnam:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.Thailand div.article{
+	float: left;
+	width: 50%;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+.Thailand div.image{
+	float: right;
+	width: 50%;
+	height: 400px;
+	margin: 0px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+.Thailand:after{
+	content: "";
+	display: table;
+	clear: both;
+}
